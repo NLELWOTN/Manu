@@ -1,0 +1,32 @@
+/* style.css */
+
+/* Smooth scrolling behavior for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Custom font if needed */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom shadow for project cards */
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Gradient text effect (can be used with a class like .gradient-text) */
+.gradient-text {
+  background: linear-gradient(to right, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
